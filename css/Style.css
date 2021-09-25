@@ -753,7 +753,7 @@ footer {
 
 /* FOOTER SECOND */
 .footer-first {
-  height: 400px;
+height: auto;
   background-color: #232F3E;
   padding-left: 110px;
   padding-right: 40px;
