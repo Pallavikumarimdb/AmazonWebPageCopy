@@ -823,7 +823,7 @@ width: 10px;
 
 /* FOOTER-LAST */
 .footer-last {
-  height: 510px;
+  height: auto;
 }
 
 .nav_main {
