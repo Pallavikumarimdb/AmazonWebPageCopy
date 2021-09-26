@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   font-family: arial, sans-serif;
-  min-width: 900px;
+  /* min-width: 900px; */
   line-height: 14px;
   font-size: 14px;
   text-decoration: none;
@@ -24,7 +24,7 @@ a:hover {
 
 header {
   background-color: #131921;
-  height: 60px;
+  height: 65px;
 }
 
 .nav-left {
@@ -47,12 +47,12 @@ header {
   white-space: nowrap;
   overflow: hidden;
   position: relative;
-  bottom: 34px;
+  bottom: 40px;
   padding-left: 20px;
 }
 
 #nav-logo {
-  padding: 11px 18px 0 24px;
+  padding: 5px 18px 0 24px;
   position: relative;
 }
 
@@ -78,9 +78,9 @@ header {
 }
 
 .nav-secleft-anc {
-  margin-top: 10px;
+  margin-top: 3px;
   display: inline-block;
-  margin-left: 15px;
+  /* margin-left: 15px; */
   text-decoration: none;
   color: grey;
 }
@@ -93,9 +93,12 @@ header {
 }
 
 .nav-secleft {
+margin-top: 5px;
   display: inline-block;
 }
-
+.nav-secleft-anc:hover{
+  text-decoration: none;
+}
 /* NAV SEARCH */
 #nav-search {
   position: relative;
@@ -216,8 +219,10 @@ header {
 
 #nav-search .nav-right-flag {
   position: relative;
-  left: 103px;
-  bottom: 24px;
+padding-top: 10px;
+padding-bottom: 10px;
+  left: 115px;
+  bottom: 34px;
   float: right;
   width: auto;
   display: inline-block;
@@ -235,8 +240,8 @@ header {
 .nav-right-login {
   color: white;
   position: relative;
-  left: 280px;
-  bottom: 27px;
+  left: 290px;
+  bottom: 34px;
   float: right;
   width: auto;
   display: inline-block;
@@ -245,17 +250,19 @@ header {
 .nav-right-login-anc {
   text-decoration: none;
   color: white;
+  font-size: 13px;
 }
 
 .nav-right-login-anc:hover {
   color: white;
+  text-decoration: none;
 }
 
 .nav-right-return {
   color: white;
   position: relative;
-  left: 480px;
-  bottom: 27px;
+  left: 490px;
+  bottom: 34px;
   float: right;
   width: auto;
   display: inline-block;
@@ -264,15 +271,17 @@ header {
 .nav-right-cart {
   color: white;
   position: relative;
-  left: 668px;
-  bottom: 45px;
+  left: 700px;
+  bottom:37px;
   float: right;
   width: auto;
   display: inline-block;
 }
 
 .class-cart {
-  width: 90%;
+  width: 80%;
+  margin: 0;
+  padding: 0;
 }
 
 /* SECOND HEADER */
@@ -302,6 +311,13 @@ header {
   color: white;
 }
 
+.round:hover{
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem;
+  color: white;
+}
+
 .nav-fill-header21 {
   width: auto;
   white-space: nowrap;
@@ -315,9 +331,16 @@ header {
   text-decoration: none;
   color: white;
   position: absolute;
-  left: 80px;
+  left: 70px;
 }
 
+.navbar-toggler{
+  font-size: 15px;
+  color: white;
+}
+.navbar-dark .navbar-toggler{
+  color: white;
+}
 .nav-right-hed2-anc2 {
   text-decoration: none;
   color: white;
@@ -419,12 +442,27 @@ header {
   padding-bottom: 15px;
   padding-left: 5px;
   padding-right: 5px;
-  background: #fff;
+  /* background: #fff; */
   position: relative;
   margin-bottom: 0;
   margin-top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+.h-100-log{
+  background: transparent;
+  padding-top: 0;
 
+  margin-bottom: 20px;
+  margin-left: 0;
+margin-right:0;
+}
+.card-title-log{
+  margin-top: 25px;
+}
+.log-back{
+  background-color: #fff;
+}
 .card-title {
   padding-left: 15px;
 }
@@ -435,7 +473,6 @@ header {
   color: #000000;
   width: 92%;
   height: 30px;
-  padding-bottom: 20px;
   margin-left: 12px;
   padding-top: 5px;
   margin-right: 50px;
@@ -567,7 +604,6 @@ header {
   z-index: 0;
   display: inline-block;
   width: 235px;
-  ;
   margin: 0 0;
   height: auto;
   background: rgba(0, 0, 0, 0) no-repeat center center;
@@ -582,14 +618,21 @@ header {
   background: white;
   overflow: auto;
   overflow-y: hidden;
-  padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 0;
   padding-bottom: 50px;
   margin: 0;
+  border-top: 0;
+  border-bottom: 0;
   white-space: nowrap;
 }
-
+.container-sc-bar{
+  padding-top: 30px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+    background: white;
+}
 .carousel-prod::-webkit-scrollbar {
   visibility: hidden;
 }
@@ -729,7 +772,7 @@ header {
 
 .btn-2 {
   margin-right: 1%;
-  background-color: yellow;
+  background-color: #FFD814;
   width: 15%;
 }
 
@@ -753,7 +796,7 @@ footer {
 
 /* FOOTER SECOND */
 .footer-first {
-height: auto;
+  height: auto;
   background-color: #232F3E;
   padding-left: 110px;
   padding-right: 40px;
